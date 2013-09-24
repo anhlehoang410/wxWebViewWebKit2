@@ -14,12 +14,12 @@ Compiling
 ---------
 
 This backend is made up of two files. Simply compile these alongside your
-project and link again WebKitGTK.
+project and link against WebKitGTK.
 
 Using
 -----
 
-To use wxWebViewChromium first register the backend with wxWidgets
+To use wxWebViewWebKit2 first register the backend with wxWidgets
 
     wxWebView::RegisterFactory(wxWebViewBackendWebKit2, 
                                wxSharedPtr<wxWebViewFactory>
